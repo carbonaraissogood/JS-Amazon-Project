@@ -4,7 +4,10 @@ import { formatCurrency } from './utils/money.js';
 
 let cartSummaryHTML = ``;
 
+console.log(cart);
+
 cart.forEach((cartItem) => {
+  console.log(cartItem);
   const productId = cartItem.productId
 
   let matchingProduct;
